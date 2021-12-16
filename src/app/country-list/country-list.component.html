@@ -1,0 +1,35 @@
+<button class="buton" (click)="back()">Back</button>
+
+<div class="container-info" >
+    <div class="flag">
+   <img class="image" src="{{countriesArray[0].flags.png}}"/>
+    </div>
+    <div class="info">
+        <h1>{{countriesArray[0].name.common}}</h1>
+   <table>
+       <tr>
+           <td>Native name : {{countriesArray[0].name.nativeName.common}}</td>
+           <td>Top Level Domain : {{countriesArray[0].tId}}</td>
+       </tr>
+       <tr>
+        <td>Population : {{countriesArray[0].population}}</td>
+        <td>Currencie : {{countriesArray[0].tld}}</td>
+    </tr>
+    <tr>
+        <td>Region : {{countriesArray[0].region}}</td>
+        <td>Languages : {{countriesArray[0].capital}}</td>
+    </tr>
+    <tr>
+        <td colspan="2">Sub Region : {{countriesArray[0].subregion}}</td>
+     
+    </tr>
+    <tr>
+        <td colspan="2">Capital :{{countriesArray[0].capital}}</td>
+     
+    </tr>
+
+   </table>
+    </div>
+</div>
+
+

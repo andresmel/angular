@@ -1,0 +1,107 @@
+
+.container-search-filter{
+    position: relative;
+    width: 100%;
+    height: 70px;
+    margin-top: 90px;
+    margin-left:auto;
+    margin-right: auto;
+    padding-top: 20px;
+   
+}
+.container-search-filter .container-search{
+
+    position: relative;
+    margin-left: 50px;
+    width: 300px;
+    height: 60px;
+    background-color: #2f3e49;
+    padding-top: 13px;
+  
+}
+
+.container-search-filter .container-search input{
+background: #2f3e49;
+color: white;
+border:none;
+}
+.container-search-filter .container-search span{
+
+    color:white;
+    background: #2f3e49 !important;
+    border:none;
+}
+
+.container-search-filter .container-search input::placeholder{
+    background: #2f3e49;
+    color: white;
+    border:none;
+    }
+    .container-search-filter .container-filter {
+
+        position: absolute;
+        right: 50px;
+        top:20px;
+        width: 300px;
+        height: 60px;
+        background-color: #2f3e49;
+        padding: 15px;;
+
+    }
+
+    .container-search-filter .container-filter select{
+         background-color: #2f3e49;
+         color: white;
+         border:none;
+
+    }
+
+
+    .container-search-filter .container-filter select:focus{
+      border:none !important;
+    }
+    .container-table{
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+        width: 1200px;
+        height:auto;
+   
+
+    }
+    .container-table .info-country{
+        width: 270px;
+        height: 320px;
+        background: #2f3e49;
+
+    }
+    ul li{
+        display: inline-flex !important;
+        padding:10px;
+
+    }
+
+    ul li .info-country .imagen{
+        position: relative;
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 100%;
+        height: 150px;
+        margin-bottom: 35px;;
+    }
+
+    ul li .info-country p{
+        margin-left:10px;
+        color:white;
+        font-size: 14px;
+        margin-top: -14px;;
+    }
+    ul li .info-country h4{
+        margin-left:10px;
+        color:white;
+        margin-top: -24px;
+        margin-bottom: 26px;
+  
+    }
+   
